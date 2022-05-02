@@ -6,9 +6,11 @@ Precompiled version should be there, if you don't want to use it then compile yo
 
 ## Quick Start
 
-Download the latest release, unzip it and run IndMiner.exe
+### Precompiled version
 
-## Compile yourself
+Download the latest release, unzip it and run IndMiner.exe.
+
+### Compile yourself
 
 Download source code and open up IndMiner.sln. Add NBitcoin via nuget and make sure build actions are cleared (Edit -> IndMiner Preferences -> Build Actions). Then select a build config and press F5.
 
