@@ -1,8 +1,16 @@
 # IndMiner
 
-IndMiner is propably the fastest walletminer out there, built using C# (.net 4.7.1) and nBitcoin.
+IndMiner is propably the fastest walletminer out there, built using C# (.net 4.7.1) and NBitcoin.
 
 Precompiled version should be there, if you don't want to use it then compile yourself (recommended due to antivirus false positives).
+
+## Quick Start
+
+Download the latest release, unzip it and run IndMiner.exe
+
+## Compile yourself
+
+Download source code and open up IndMiner.sln. Add NBitcoin via nuget and make sure build actions are cleared (Edit -> IndMiner Preferences -> Build Actions). Then select a build config and press F5.
 
 ## Webhook & Hit Behaviour
 
